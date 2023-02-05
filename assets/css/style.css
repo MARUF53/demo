@@ -1,0 +1,462 @@
+/*=========================
+    common css start
+==========================*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    transition: all .3s linear;
+    }
+
+
+/*=========================
+    common css end
+==========================*/
+/*=========================
+    latest_blog css start
+==========================*/
+#latest_blog {
+    padding: 90px 0 95px;
+}
+
+.latest_part {
+    text-align: center !important;
+}
+.latest_part h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 54px;
+    color: #000000;
+}
+.latest_part p{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 25px;
+}
+.latest_item .latest_img{
+    margin-top: 30px;
+}
+.latest_item .latest_img img{
+    width: 100%;
+    
+}
+.latest_item .latest_img img:hover{
+    overflow: hidden;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.latest_item .latest_text {
+    padding-top: 20px;
+}
+
+.latest_item .latest_text .date ul {
+    display: flex;
+    margin-left: -32px;
+}
+
+.latest_item .latest_text .date ul li {
+    font-size: 14px;
+    padding-right: 22px;
+    position: relative;
+}
+
+.latest_item .latest_text .date ul li:first-child:before {
+    position: absolute;
+    content: "";
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 5px;
+    width: 5px;
+    background: #2b70fa;
+    border-radius: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+.latest_item .latest_text .date ul li a {
+    font-weight: 400px;
+    color: #505056;
+}
+
+.latest_item .latest_text .title-1 a{
+    width: 376px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+    margin-top: 2px;
+    color: #0E1133;
+    font-family: 'Roboto', sans-serif;
+}
+.latest_item .latest_text .title-2 a{
+    width: 376px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+    margin-top: 2px;
+    color: #0E1133;
+    font-family: 'Roboto', sans-serif;
+}
+.latest_item .latest_text .title-3 a{
+    width: 376px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+    margin-top: 2px;
+    color: #0E1133;
+    font-family: 'Roboto', sans-serif;
+}
+
+.latest_item .latest_text .title a {
+    color: #0e1133;
+}
+
+.latest_item .latest_text .title-1:hover a {
+    color: #2b70fa;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+.latest_item .latest_text .title-2:hover a {
+    color: #2b70fa;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+.latest_item .latest_text .title-3:hover a {
+    color: #2b70fa;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.latest_item .latest_text>a {
+    font-size: 15px;
+    font-weight: 500;
+    color: #0e1133;
+    margin-top: 14px;
+}
+
+.latest_item .latest_text>a i {
+    padding-left: 6px;
+}
+
+.latest_item .latest_text>a:hover {
+    color: #2b70fa;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+/*=========================
+  latest_blog css end
+==========================*/
+/*=========================
+  Start your css start
+==========================*/
+#your_project{
+    padding: 0 0 100px;
+}
+.cover_img{
+    width: 100%;
+    height: 394px;
+    background-image: url(../images/sub-cover-1.jpg);
+    background-size: cover;
+    background-position: 50%;
+    padding-left: 70px;
+    padding-top: 75px;
+    border-radius: 10px;
+    padding-bottom: 85px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    position: relative;
+}
+.project_text{
+    padding-right: 50px;
+}
+.cover_img .project_text h3{
+    width: 448px;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 60px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 10px;
+}
+.cover_img .project_text p{
+    width: 490px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 30px;
+}
+.project_text .input_box input{
+    width: 360px;
+    height: 50px;
+    padding-left: 30px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    border: none;
+}
+.project_text .input_box button{
+    margin-left: 10px;
+    padding: 0 25px;
+    background: #0e1133;
+    color: #ffffff;
+    border: none;
+    line-height: 50px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+.project_text .input_box button:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+.cover_img .input_img img{
+    position: absolute;
+    right: 70px;
+    bottom: 0;
+}
+/*=========================
+  Start your css end
+==========================*/
+/*=========================
+  footer css start
+==========================*/
+#footer{
+    background: #eef1f6;
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+.footer_logo{
+    padding-right: 70px;
+    margin-top: 30px;
+}
+.footer_logo .logo img{
+    width: 100%;
+}
+.footer_logo p{
+    width: 306px;
+    padding-top: 25px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #505056;
+    font-family: 'Roboto', sans-serif;
+
+}
+.footer_logo>a{
+    font-size: 15px;
+    font-weight: 500;
+    color: #0e1133;
+    margin-top: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+.footer_logo>a i{
+    padding-left: 6px;
+}
+.footer_icon{
+    margin-top: 30px;
+}
+.footer_icon ul{
+    padding: 0;
+    display: flex;
+}
+.footer_icon ul li a{
+    width: 36px;
+    height: 36px;
+    text-align: center;
+    background: #ffffff;
+    color: #0e1133;
+    margin-right: 5px;
+    line-height: 36px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+.footer_icon ul li:hover a{
+    background-color: #2b70fa;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+.footer_icon ul li:hover i{
+    color: #ffffff;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+
+.footer_nav h4{
+    width: 176px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #0e1133;
+    margin-top: 30px;
+    margin-bottom: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+.footer_nav ul{
+    padding: 0;
+}
+.footer_nav ul li{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 35px;
+    font-family: 'Roboto', sans-serif;
+}
+.footer_nav ul li a{
+    color: #505056;
+}
+.footer_link h4{
+    width: 176px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #0e1133;
+    margin-top: 30px;
+    margin-bottom: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+.footer_link ul{
+    padding: 0;
+}
+.footer_link ul li a{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    padding-left: 30px;
+    color: #505056;
+    position: relative;
+    line-height: 29px;
+}
+.footer_link ul li a i{
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #2b70fa;
+    line-height: 29px;
+    border: none;
+
+}
+.footer_end{
+    align-items: center;
+    display: flex;
+    padding-top: 35px;
+    border-top: 1px solid #e1e5ec;
+    margin-top: 80px;
+}
+.footer_end .ios{
+    width: 432px;
+}
+.footer_end .ios ul{
+    width: 442px;
+    padding: 0;
+    display: flex;
+}
+.footer_end .ios ul li{
+    padding-right: 8px;
+}
+.footer_end .ios ul li a{
+    font-size: 16px;
+    font-weight: 400;
+    background: #fff;
+    line-height: 40px;
+    padding: 0 23px;
+    border-radius: 6px;
+    color: #0e1133;
+}
+.footer_end .ios ul li .a{
+    font-size: 16px;
+    font-weight: 400;
+    background: #eef1f6;
+    line-height: 40px;
+    padding: 0 23px;
+    border-radius: 6px;
+    border: none;
+    color: #0e1133;
+}
+.footer_end .ios ul li a i{
+    padding-right: 6px;
+}
+.footer_end .ios ul li a:hover{
+    background-color: #eef1f6;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+.footer_end .ios ul li .a:hover{
+    background-color: #ffffff;
+    box-shadow: none;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+.footer_end .copyright_text p{
+    padding-left: 525px;
+}
+/*=========================
+  footer css end
+==========================*/
